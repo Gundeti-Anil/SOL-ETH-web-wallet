@@ -1,12 +1,32 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+Web3 Wallet Generator
+A web-based cryptocurrency wallet that generates secure seed phrases and creates accounts for Solana and Ethereum networks.
+Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Generate 12-word seed phrases
+Create Solana and Ethereum accounts
+Display public keys
+Copy seed phrases and public keys to clipboard
+Modern, responsive UI (used claude Ai here)
 
-## Expanding the ESLint configuration
+Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+React + Vite
+Tailwind CSS
+Lucide React (icons)
+
+Setup
+bashnpm install
+npm install -D tailwindcss postcss autoprefixer
+npm install lucide-react
+npx tailwindcss init -p
+npm run dev
+Usage
+
+Generate a seed phrase
+Click "Create Solana Account" or "Create Ethereum Account"
+View and copy the generated public keys
+
+Built for Web3 development and learning purposes.
+[Screencast from 2025-06-09 15-15-46.webm](https://github.com/user-attachments/assets/78cce56c-48af-4293-b594-2958e101a632)
