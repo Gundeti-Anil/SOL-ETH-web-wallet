@@ -29,4 +29,6 @@ Click "Create Solana Account" or "Create Ethereum Account"
 View and copy the generated public keys
 
 Built for Web3 development and learning purposes.
+[![Watch demo](thumbnail.png)](https://github.com/user-attachments/assets/78cce56c-48af-4293-b594-2958e101a632)
+
 [Screencast from 2025-06-09 15-15-46.webm](https://github.com/user-attachments/assets/78cce56c-48af-4293-b594-2958e101a632)
